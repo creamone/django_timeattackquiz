@@ -6,5 +6,3 @@ from django.shortcuts import render
 
 def show_index(request):
     return render(request,'index.html')
-    def __init__(email,password):
-        self.email
