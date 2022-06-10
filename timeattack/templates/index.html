@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <form method="POST">
+        {% csrf_token %}
+            <input type="checkbox" name="category" value="1">콜드 브루 커피<br/>
+            <input type="checkbox" name="category" value="2">브루드 커피<br/>
+            <input type="checkbox" name="category" value="3">에스프레소 커피<br/>
+            <input type="submit" value="submit">
+    </form>
+
+    {{ data }}
+    {% for drink in data %}
+    <h3>{{ drink.name }}</h3>
+    {% endfor %}
+</body>
+</html>

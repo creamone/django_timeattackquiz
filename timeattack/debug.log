@@ -1,0 +1,199 @@
+2022-06-03 17:38:55,583 DEBUG (0.000) SELECT "categories"."id", "categories"."name" FROM "categories" LIMIT 21; args=(); alias=default
+2022-06-03 17:42:21,605 DEBUG (0.000) SELECT "categories"."id", "categories"."name" FROM "categories" WHERE "categories"."id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-03 17:43:44,076 DEBUG (0.000) INSERT INTO "drinks" ("name", "category_id") VALUES ('롤린 민트 초코 콜드 브루', 1) RETURNING "drinks"."id"; args=('롤린 민트 초코 콜드 브루', 1); alias=default
+2022-06-03 17:46:33,864 DEBUG (0.000) SELECT "categories"."id", "categories"."name" FROM "categories" WHERE "categories"."id" = 2 LIMIT 21; args=(2,); alias=default
+2022-06-03 17:47:08,295 DEBUG (0.000) INSERT INTO "drinks" ("name", "category_id") VALUES ('아이스 커피', 2) RETURNING "drinks"."id"; args=('아이스 커피', 2); alias=default
+2022-06-03 17:47:19,550 DEBUG (0.000) INSERT INTO "drinks" ("name", "category_id") VALUES ('오늘의 커피', 2) RETURNING "drinks"."id"; args=('오늘의 커피', 2); alias=default
+2022-06-03 17:47:54,571 DEBUG (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+2022-06-03 17:47:54,578 DEBUG (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+2022-06-03 17:48:02,015 DEBUG (0.015) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2022-06-03 08:48:02.012234' AND "django_session"."session_key" = 'dsne6lmnkc3s8vhkqph43ctok32iw3f3') LIMIT 21; args=('2022-06-03 08:48:02.012234', 'dsne6lmnkc3s8vhkqph43ctok32iw3f3'); alias=default
+2022-06-03 17:48:02,021 DEBUG (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-03 17:48:02,025 DEBUG (0.000) SELECT COUNT(*) AS "__count" FROM "drinks"; args=(); alias=default
+2022-06-03 17:48:02,026 DEBUG (0.000) SELECT COUNT(*) AS "__count" FROM "drinks"; args=(); alias=default
+2022-06-03 17:48:02,052 DEBUG (0.000) SELECT "drinks"."id", "drinks"."name", "drinks"."category_id" FROM "drinks" ORDER BY "drinks"."id" DESC; args=(); alias=default
+2022-06-03 17:48:02,245 DEBUG (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2022-06-03 08:48:02.242103' AND "django_session"."session_key" = 'dsne6lmnkc3s8vhkqph43ctok32iw3f3') LIMIT 21; args=('2022-06-03 08:48:02.242103', 'dsne6lmnkc3s8vhkqph43ctok32iw3f3'); alias=default
+2022-06-03 17:48:02,250 DEBUG (0.016) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-03 17:48:06,278 DEBUG (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2022-06-03 08:48:06.275013' AND "django_session"."session_key" = 'dsne6lmnkc3s8vhkqph43ctok32iw3f3') LIMIT 21; args=('2022-06-03 08:48:06.275013', 'dsne6lmnkc3s8vhkqph43ctok32iw3f3'); alias=default
+2022-06-03 17:48:06,281 DEBUG (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-03 17:48:06,284 DEBUG (0.000) SELECT COUNT(*) AS "__count" FROM "drinks"; args=(); alias=default
+2022-06-03 17:48:06,284 DEBUG (0.000) SELECT COUNT(*) AS "__count" FROM "drinks"; args=(); alias=default
+2022-06-03 17:48:06,287 DEBUG (0.000) SELECT "drinks"."id", "drinks"."name", "drinks"."category_id" FROM "drinks" ORDER BY "drinks"."id" DESC; args=(); alias=default
+2022-06-03 17:48:06,329 DEBUG (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2022-06-03 08:48:06.323986' AND "django_session"."session_key" = 'dsne6lmnkc3s8vhkqph43ctok32iw3f3') LIMIT 21; args=('2022-06-03 08:48:06.323986', 'dsne6lmnkc3s8vhkqph43ctok32iw3f3'); alias=default
+2022-06-03 17:48:06,332 DEBUG (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-03 17:48:13,280 DEBUG (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2022-06-03 08:48:13.278146' AND "django_session"."session_key" = 'dsne6lmnkc3s8vhkqph43ctok32iw3f3') LIMIT 21; args=('2022-06-03 08:48:13.278146', 'dsne6lmnkc3s8vhkqph43ctok32iw3f3'); alias=default
+2022-06-03 17:48:13,283 DEBUG (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-03 17:48:13,286 DEBUG (0.000) BEGIN; args=None; alias=default
+2022-06-03 17:48:13,288 DEBUG (0.000) SELECT "drinks"."id", "drinks"."name", "drinks"."category_id" FROM "drinks" WHERE "drinks"."id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-03 17:48:13,294 DEBUG (0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE ("django_content_type"."app_label" = 'product' AND "django_content_type"."model" = 'drink') LIMIT 21; args=('product', 'drink'); alias=default
+2022-06-03 17:48:13,324 DEBUG (0.000) SELECT "categories"."id", "categories"."name" FROM "categories"; args=(); alias=default
+2022-06-03 17:48:13,397 DEBUG (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2022-06-03 08:48:13.394079' AND "django_session"."session_key" = 'dsne6lmnkc3s8vhkqph43ctok32iw3f3') LIMIT 21; args=('2022-06-03 08:48:13.394079', 'dsne6lmnkc3s8vhkqph43ctok32iw3f3'); alias=default
+2022-06-03 17:48:13,401 DEBUG (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-03 17:48:18,093 DEBUG (0.015) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2022-06-03 08:48:18.091706' AND "django_session"."session_key" = 'dsne6lmnkc3s8vhkqph43ctok32iw3f3') LIMIT 21; args=('2022-06-03 08:48:18.091706', 'dsne6lmnkc3s8vhkqph43ctok32iw3f3'); alias=default
+2022-06-03 17:48:18,096 DEBUG (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-03 17:48:18,101 DEBUG (0.000) SELECT COUNT(*) AS "__count" FROM "drinks"; args=(); alias=default
+2022-06-03 17:48:18,103 DEBUG (0.000) SELECT COUNT(*) AS "__count" FROM "drinks"; args=(); alias=default
+2022-06-03 17:48:18,108 DEBUG (0.000) SELECT "drinks"."id", "drinks"."name", "drinks"."category_id" FROM "drinks" ORDER BY "drinks"."id" DESC; args=(); alias=default
+2022-06-03 17:48:19,151 DEBUG (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2022-06-03 08:48:19.148101' AND "django_session"."session_key" = 'dsne6lmnkc3s8vhkqph43ctok32iw3f3') LIMIT 21; args=('2022-06-03 08:48:19.148101', 'dsne6lmnkc3s8vhkqph43ctok32iw3f3'); alias=default
+2022-06-03 17:48:19,171 DEBUG (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-03 17:48:19,178 DEBUG (0.000) BEGIN; args=None; alias=default
+2022-06-03 17:48:19,180 DEBUG (0.000) SELECT "drinks"."id", "drinks"."name", "drinks"."category_id" FROM "drinks" WHERE "drinks"."id" = 2 LIMIT 21; args=(2,); alias=default
+2022-06-03 17:48:19,199 DEBUG (0.000) SELECT "categories"."id", "categories"."name" FROM "categories"; args=(); alias=default
+2022-06-03 17:48:19,289 DEBUG (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2022-06-03 08:48:19.286022' AND "django_session"."session_key" = 'dsne6lmnkc3s8vhkqph43ctok32iw3f3') LIMIT 21; args=('2022-06-03 08:48:19.286022', 'dsne6lmnkc3s8vhkqph43ctok32iw3f3'); alias=default
+2022-06-03 17:48:19,294 DEBUG (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-03 17:48:21,304 DEBUG (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2022-06-03 08:48:21.301052' AND "django_session"."session_key" = 'dsne6lmnkc3s8vhkqph43ctok32iw3f3') LIMIT 21; args=('2022-06-03 08:48:21.301052', 'dsne6lmnkc3s8vhkqph43ctok32iw3f3'); alias=default
+2022-06-03 17:48:21,307 DEBUG (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-03 17:48:21,310 DEBUG (0.000) SELECT COUNT(*) AS "__count" FROM "drinks"; args=(); alias=default
+2022-06-03 17:48:21,312 DEBUG (0.016) SELECT COUNT(*) AS "__count" FROM "drinks"; args=(); alias=default
+2022-06-03 17:48:21,317 DEBUG (0.000) SELECT "drinks"."id", "drinks"."name", "drinks"."category_id" FROM "drinks" ORDER BY "drinks"."id" DESC; args=(); alias=default
+2022-06-03 17:48:22,247 DEBUG (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2022-06-03 08:48:22.244166' AND "django_session"."session_key" = 'dsne6lmnkc3s8vhkqph43ctok32iw3f3') LIMIT 21; args=('2022-06-03 08:48:22.244166', 'dsne6lmnkc3s8vhkqph43ctok32iw3f3'); alias=default
+2022-06-03 17:48:22,249 DEBUG (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-03 17:48:22,252 DEBUG (0.000) BEGIN; args=None; alias=default
+2022-06-03 17:48:22,253 DEBUG (0.000) SELECT "drinks"."id", "drinks"."name", "drinks"."category_id" FROM "drinks" WHERE "drinks"."id" = 3 LIMIT 21; args=(3,); alias=default
+2022-06-03 17:48:22,266 DEBUG (0.000) SELECT "categories"."id", "categories"."name" FROM "categories"; args=(); alias=default
+2022-06-03 17:48:22,326 DEBUG (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2022-06-03 08:48:22.323119' AND "django_session"."session_key" = 'dsne6lmnkc3s8vhkqph43ctok32iw3f3') LIMIT 21; args=('2022-06-03 08:48:22.323119', 'dsne6lmnkc3s8vhkqph43ctok32iw3f3'); alias=default
+2022-06-03 17:48:22,329 DEBUG (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-03 17:48:24,118 DEBUG (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2022-06-03 08:48:24.114247' AND "django_session"."session_key" = 'dsne6lmnkc3s8vhkqph43ctok32iw3f3') LIMIT 21; args=('2022-06-03 08:48:24.114247', 'dsne6lmnkc3s8vhkqph43ctok32iw3f3'); alias=default
+2022-06-03 17:48:24,122 DEBUG (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-03 17:48:24,126 DEBUG (0.000) SELECT COUNT(*) AS "__count" FROM "drinks"; args=(); alias=default
+2022-06-03 17:48:24,127 DEBUG (0.000) SELECT COUNT(*) AS "__count" FROM "drinks"; args=(); alias=default
+2022-06-03 17:48:24,130 DEBUG (0.000) SELECT "drinks"."id", "drinks"."name", "drinks"."category_id" FROM "drinks" ORDER BY "drinks"."id" DESC; args=(); alias=default
+2022-06-03 17:48:24,829 DEBUG (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2022-06-03 08:48:24.825450' AND "django_session"."session_key" = 'dsne6lmnkc3s8vhkqph43ctok32iw3f3') LIMIT 21; args=('2022-06-03 08:48:24.825450', 'dsne6lmnkc3s8vhkqph43ctok32iw3f3'); alias=default
+2022-06-03 17:48:24,833 DEBUG (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-03 17:48:24,837 DEBUG (0.000) BEGIN; args=None; alias=default
+2022-06-03 17:48:24,839 DEBUG (0.000) SELECT "drinks"."id", "drinks"."name", "drinks"."category_id" FROM "drinks" WHERE "drinks"."id" = 4 LIMIT 21; args=(4,); alias=default
+2022-06-03 17:48:24,854 DEBUG (0.000) SELECT "categories"."id", "categories"."name" FROM "categories"; args=(); alias=default
+2022-06-03 17:48:24,926 DEBUG (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2022-06-03 08:48:24.923395' AND "django_session"."session_key" = 'dsne6lmnkc3s8vhkqph43ctok32iw3f3') LIMIT 21; args=('2022-06-03 08:48:24.923395', 'dsne6lmnkc3s8vhkqph43ctok32iw3f3'); alias=default
+2022-06-03 17:48:24,928 DEBUG (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-03 17:48:26,321 DEBUG (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2022-06-03 08:48:26.318166' AND "django_session"."session_key" = 'dsne6lmnkc3s8vhkqph43ctok32iw3f3') LIMIT 21; args=('2022-06-03 08:48:26.318166', 'dsne6lmnkc3s8vhkqph43ctok32iw3f3'); alias=default
+2022-06-03 17:48:26,324 DEBUG (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-03 17:48:26,327 DEBUG (0.000) SELECT COUNT(*) AS "__count" FROM "drinks"; args=(); alias=default
+2022-06-03 17:48:26,329 DEBUG (0.000) SELECT COUNT(*) AS "__count" FROM "drinks"; args=(); alias=default
+2022-06-03 17:48:26,332 DEBUG (0.000) SELECT "drinks"."id", "drinks"."name", "drinks"."category_id" FROM "drinks" ORDER BY "drinks"."id" DESC; args=(); alias=default
+2022-06-03 17:49:15,074 DEBUG (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+2022-06-03 17:49:15,078 DEBUG (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+2022-06-03 17:53:11,748 DEBUG (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+2022-06-03 17:53:11,752 DEBUG (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+2022-06-03 17:53:23,041 DEBUG (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+2022-06-03 17:53:23,045 DEBUG (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+2022-06-03 17:58:35,411 DEBUG (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+2022-06-03 17:58:35,421 DEBUG (0.015) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+2022-06-03 17:58:38,173 DEBUG (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+2022-06-03 17:58:38,181 DEBUG (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+2022-06-03 17:59:29,615 DEBUG (0.000) SELECT "categories"."id", "categories"."name" FROM "categories" WHERE "categories"."id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-03 18:00:04,481 DEBUG (0.000) SELECT "drinks"."id", "drinks"."name", "drinks"."category_id" FROM "drinks" WHERE "drinks"."category_id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-03 18:00:12,685 DEBUG (0.000) SELECT "drinks"."id", "drinks"."name", "drinks"."category_id" FROM "drinks" WHERE "drinks"."category_id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-03 18:00:45,849 DEBUG (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+2022-06-03 18:00:45,856 DEBUG (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+2022-06-03 18:01:04,236 DEBUG (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+2022-06-03 18:01:04,241 DEBUG (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+2022-06-03 18:01:16,383 DEBUG (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+2022-06-03 18:01:16,389 DEBUG (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+2022-06-03 18:01:42,754 DEBUG (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+2022-06-03 18:01:42,762 DEBUG (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+2022-06-03 18:01:48,205 DEBUG (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+2022-06-03 18:01:48,211 DEBUG (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+2022-06-03 18:01:58,511 DEBUG (0.000) SELECT "categories"."id", "categories"."name" FROM "categories" WHERE "categories"."id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-03 18:02:40,680 DEBUG (0.000) SELECT "categories"."id", "categories"."name" FROM "categories" WHERE "categories"."id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-03 18:02:40,698 DEBUG (0.000) SELECT "drinks"."id", "drinks"."name", "drinks"."category_id" FROM "drinks" WHERE "drinks"."category_id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-03 18:03:40,972 DEBUG (0.000) SELECT "categories"."id", "categories"."name" FROM "categories" WHERE "categories"."id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-03 18:03:40,987 DEBUG (0.000) SELECT "drinks"."id", "drinks"."name", "drinks"."category_id" FROM "drinks" WHERE "drinks"."category_id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-03 18:03:40,988 DEBUG (0.000) SELECT "drinks"."id", "drinks"."name", "drinks"."category_id" FROM "drinks" WHERE "drinks"."category_id" = 1; args=(1,); alias=default
+2022-06-03 18:04:06,773 DEBUG (0.000) SELECT "categories"."id", "categories"."name" FROM "categories" WHERE "categories"."id" = 2 LIMIT 21; args=(2,); alias=default
+2022-06-03 18:04:14,542 DEBUG (0.000) SELECT "drinks"."id", "drinks"."name", "drinks"."category_id" FROM "drinks" WHERE "drinks"."category_id" = 2 LIMIT 21; args=(2,); alias=default
+2022-06-03 18:04:14,545 DEBUG (0.000) SELECT "drinks"."id", "drinks"."name", "drinks"."category_id" FROM "drinks" WHERE "drinks"."category_id" = 2; args=(2,); alias=default
+2022-06-03 18:04:52,825 DEBUG (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+2022-06-03 18:04:52,830 DEBUG (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+2022-06-03 18:10:15,055 DEBUG (0.000) SELECT "categories"."id", "categories"."name" FROM "categories" LIMIT 21; args=(); alias=default
+2022-06-03 18:10:15,059 DEBUG (0.000) SELECT "drinks"."id", "drinks"."name", "drinks"."category_id" FROM "drinks" WHERE "drinks"."category_id" IN (1, 2, 3); args=(1, 2, 3); alias=default
+2022-06-03 18:12:12,078 DEBUG (0.000) SELECT "categories"."id", "categories"."name" FROM "categories" LIMIT 21; args=(); alias=default
+2022-06-03 18:12:12,080 DEBUG (0.000) SELECT "drinks"."id", "drinks"."name", "drinks"."category_id" FROM "drinks" WHERE "drinks"."category_id" IN (1, 2, 3); args=(1, 2, 3); alias=default
+2022-06-03 18:12:23,084 DEBUG (0.000) SELECT "categories"."id", "categories"."name" FROM "categories"; args=(); alias=default
+2022-06-03 18:12:23,085 DEBUG (0.000) SELECT "drinks"."id", "drinks"."name", "drinks"."category_id" FROM "drinks" WHERE "drinks"."category_id" IN (1, 2, 3); args=(1, 2, 3); alias=default
+2022-06-03 18:13:07,423 DEBUG (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+2022-06-03 18:13:07,430 DEBUG (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+2022-06-03 18:14:28,363 DEBUG (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+2022-06-03 18:14:28,368 DEBUG (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+2022-06-03 18:14:37,169 DEBUG (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+2022-06-03 18:14:37,180 DEBUG (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+2022-06-03 18:14:59,925 DEBUG (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+2022-06-03 18:14:59,929 DEBUG (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+2022-06-03 18:15:11,204 DEBUG (0.000) SELECT "categories"."id", "categories"."name" FROM "categories" LIMIT 1; args=(); alias=default
+2022-06-03 18:15:11,206 DEBUG (0.000) SELECT "drinks"."id", "drinks"."name", "drinks"."category_id" FROM "drinks" WHERE "drinks"."category_id" IN (1); args=(1,); alias=default
+2022-06-03 18:15:42,740 DEBUG (0.000) SELECT "categories"."id", "categories"."name" FROM "categories" LIMIT 1; args=(); alias=default
+2022-06-03 18:15:42,743 DEBUG (0.000) SELECT "drinks"."id", "drinks"."name", "drinks"."category_id" FROM "drinks" WHERE "drinks"."category_id" IN (1); args=(1,); alias=default
+2022-06-03 18:15:42,752 DEBUG (0.000) SELECT "drinks"."id", "drinks"."name", "drinks"."category_id" FROM "drinks" WHERE ("drinks"."category_id" = 1 AND "drinks"."category_id" = 1) LIMIT 21; args=(1, 1); alias=default
+2022-06-03 18:16:18,800 DEBUG (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+2022-06-03 18:16:18,804 DEBUG (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+2022-06-03 18:16:30,777 DEBUG (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+2022-06-03 18:16:30,783 DEBUG (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+2022-06-03 18:16:35,507 DEBUG (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+2022-06-03 18:16:35,512 DEBUG (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+2022-06-03 18:16:43,573 DEBUG (0.000) SELECT "categories"."id", "categories"."name" FROM "categories"; args=(); alias=default
+2022-06-03 18:16:43,579 DEBUG (0.000) SELECT "drinks"."id", "drinks"."name", "drinks"."category_id" FROM "drinks" WHERE "drinks"."category_id" IN (1, 2, 3); args=(1, 2, 3); alias=default
+2022-06-03 18:16:43,581 DEBUG (0.000) SELECT "drinks"."id", "drinks"."name", "drinks"."category_id" FROM "drinks" WHERE ("drinks"."category_id" = 1 AND "drinks"."category_id" = 1); args=(1, 1); alias=default
+2022-06-03 18:16:43,582 DEBUG (0.000) SELECT "drinks"."id", "drinks"."name", "drinks"."category_id" FROM "drinks" WHERE ("drinks"."category_id" = 2 AND "drinks"."category_id" = 1); args=(2, 1); alias=default
+2022-06-03 18:16:43,584 DEBUG (0.000) SELECT "drinks"."id", "drinks"."name", "drinks"."category_id" FROM "drinks" WHERE ("drinks"."category_id" = 3 AND "drinks"."category_id" = 1); args=(3, 1); alias=default
+2022-06-03 18:17:04,440 DEBUG (0.000) SELECT "categories"."id", "categories"."name" FROM "categories"; args=(); alias=default
+2022-06-03 18:17:05,934 DEBUG (0.000) SELECT "drinks"."id", "drinks"."name", "drinks"."category_id" FROM "drinks" WHERE "drinks"."category_id" IN (1, 2, 3); args=(1, 2, 3); alias=default
+2022-06-03 18:17:05,955 DEBUG (0.000) SELECT "drinks"."id", "drinks"."name", "drinks"."category_id" FROM "drinks" WHERE ("drinks"."category_id" = 1 AND "drinks"."category_id" = 2); args=(1, 2); alias=default
+2022-06-03 18:17:05,960 DEBUG (0.000) SELECT "drinks"."id", "drinks"."name", "drinks"."category_id" FROM "drinks" WHERE ("drinks"."category_id" = 2 AND "drinks"."category_id" = 2); args=(2, 2); alias=default
+2022-06-03 18:17:05,963 DEBUG (0.000) SELECT "drinks"."id", "drinks"."name", "drinks"."category_id" FROM "drinks" WHERE ("drinks"."category_id" = 3 AND "drinks"."category_id" = 2); args=(3, 2); alias=default
+2022-06-03 18:18:26,462 DEBUG (0.000) SELECT "drinks"."id", "drinks"."name", "drinks"."category_id" FROM "drinks" WHERE "drinks"."id" = 1 LIMIT 21; args=(1,); alias=default
+2022-06-03 18:19:05,580 DEBUG (0.000) SELECT "categories"."id", "categories"."name" FROM "categories" WHERE "categories"."id" = 1 LIMIT 21; args=(1,); alias=default
